@@ -1,0 +1,101 @@
+.footer{
+    padding: 50px 15px 10px;
+    border-top: 6px solid #333;
+    color: #777;
+    margin-top: 10vh;
+  }
+  
+  .footer h2{
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  .footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+  }
+  
+  .footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+  }
+  
+  .footer .language-btn{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+  }
+  
+  .copyright-txt{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  }
+  
+  
+  
+  
+  @media only screen and (max-width:1150px){
+  
+    .banner h1{
+        font-size: 3.8rem;
+    }
+    .navbar{
+        width: 100%;
+        display: none;
+    }
+    .left-nav,
+    .right-nav{
+        width: 100%;
+        justify-content: flex-start;
+        margin: 20px 0;
+  
+    }
+    ul li{
+        margin-right: 30px;
+        
+    }
+    .togglebtn{
+        display: block;
+        font-size: 2rem;
+        color: #ffff;
+        margin-top:18px;
+        position: absolute;
+        right: 20px;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .banner h1{
+        font-size: 3rem;
+    }
+    .banner{
+        padding: 50px;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 550px){
+    .banner h1{
+        font-size: 3 rem;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    ul li{
+        margin-bottom: 10px;
+    }
+  
+  
+  
+  }
+  
